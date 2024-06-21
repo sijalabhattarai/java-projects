@@ -32,6 +32,10 @@ public class WPMprogram {
 	   double end = LocalTime.now().toNanoOfDay();
 	   double elapsedTime= end - start;
 	   double seconds = elapsedTime / 1000000000.0; //to get exact seconds
-	  
+	   int numChars = typedWords.length();//num of character of user
+	   //words for minute formula- (x characters/5) / 1min =y WPM
+	   int wpm = (int)((((double) numChars / 5) / seconds) *60);
+
+	   System.out.println("Your WPM is " + wpm + "!");
 	}
 }
