@@ -46,7 +46,7 @@ public class NumberPatterns {
 		}
 	}
 
-// Floyd's Triangle
+    //Floyd's Triangle
     private static void printFloydTriangle(int rows) {
         int number = 1;
         for (int i = 1; i <= rows; i++) {
@@ -58,7 +58,7 @@ public class NumberPatterns {
         }
     }
 
-    // Pascal's Triangle
+    //Pascal's Triangle
     private static void printPascalTriangle(int rows) {
         for (int i = 0; i < rows; i++) {
             int number = 1;

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Random;
 
 public class PasswordGenerator {
@@ -18,5 +19,5 @@ public class PasswordGenerator {
 
 		System.out.println("Generated password is:" + new String (password));
 	}
-    
+        
 }
